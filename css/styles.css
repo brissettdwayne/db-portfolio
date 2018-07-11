@@ -1,0 +1,72 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: #5c5d60;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  border: 5px solid rgba(0,0,0,.125);
+}
+
+.font {
+  font-weight: 400;
+  color: #EF7F75;
+}
+
+.caption {
+  background-color: rgba(77,83,108,0.80);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.caption:hover {
+  opacity: 1;
+}
+
+.fa-search-plus {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+
+.fa-github:hover,
+.fa-envelope:hover,
+.fa-linkedin-in:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  i {
+    padding-right: .6em;
+    font-size: 1.3em;
+  }
+
+  .font-weight-bold {
+    font-size: 2em;
+  }
+
+  .list-inline {
+  padding-left: 15px;
+  }
+
+  .caption:active {
+    opacity: 0;
+    display: none;
+  }
+
+}

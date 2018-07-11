@@ -68,4 +68,8 @@ a:hover {
     opacity: 0;
   }
 
+  .caption:hover {
+    opacity: 0;
+  }
+
 }

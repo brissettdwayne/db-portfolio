@@ -66,7 +66,6 @@ a:hover {
 
   .caption:active {
     opacity: 0;
-    display: none;
   }
 
 }
